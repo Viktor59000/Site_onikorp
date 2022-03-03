@@ -15,34 +15,33 @@ form {
 }
 form h1{
   color: #C23028;
-}
-form p.choose-email{
-}
-form .inputs {
+ }
+
+  form .inputs {
   display: flex;
   flex-direction: column;
 }
-form .inputs input[type='email'], input[type='password']{
+form .input input[type='Code'] {
   padding: 15px;
   border:none;
   background-color: rgba(194, 48, 40, 40%);
   opacity: 100%;
-  color: #F2F2F2;
+  color: #FFFFFF;
   outline:none;
   margin-bottom: 15px;
 }
-form p.inscription{
+form p.Renvoie{
   font-size: 14px;
   margin-bottom: 20px;
   color: #878787;
 }
-form p.inscription span{
+form p.Renvoie span{
   color: #C23028;
 }
 form button{
   padding: 15px 20px;
   border:none;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   background-color: #C23028;
   outline:none;
