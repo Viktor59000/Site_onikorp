@@ -12,11 +12,11 @@ body{
 form {
   margin-top: 20px;
   padding: 40px 60px;
-  border-radius: 10px;
   min-width: 300px;
   justify-content: center;
   align-content: center;
   font-family: 'agency-fb', sans-serif;
+  background-color: beige;
 
 }
 form h1{
@@ -60,7 +60,37 @@ form .inputs input[type='email']::placeholder, input[type='password']::placehold
   
 }
 
-form button{
+form button.submit{
+  padding: 15px 20px;
+  border:none;
+  font-size: 15px;
+  color: #fff;
+  background-color: #8a1812;
+  outline:none;
+  cursor:pointer;
+  opacity: 75%;
+  margin: 15px;
+  font-family: 'agency-fb', sans-serif;
+  
+
+}
+form button.submit{
+  transition: 1s;
+  }
+form button.submit:hover{
+opacity: 100%;
+}
+
+
+
+form button.submit a{
+  color: #F2F2F2;
+  text-decoration: none;
+  padding: 15px 13.589px;
+  font-family: 'agency-fb', sans-serif;
+}
+
+form button.submit2{
   padding: 15px 20px;
   border:none;
   font-size: 15px;
@@ -73,21 +103,21 @@ form button{
   font-family: 'agency-fb', sans-serif;
 
 }
-form button{
+form button.submit2{
   transition: 1s;
   }
-form button:hover{
+form button.submit2:hover{
 opacity: 100%;
 }
 
 
-form button a{
+form button.submit2 a{
   color: #F2F2F2;
   text-decoration: none;
   padding: 15px 13.589px;
   font-family: 'agency-fb', sans-serif;
-
 }
+
 form p{
   text-align: center;
   font-family: 'agency-fb', sans-serif;
