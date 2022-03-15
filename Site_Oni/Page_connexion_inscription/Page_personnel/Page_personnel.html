@@ -5,7 +5,68 @@
 		<title>Page Personnel | Oni Korp </title>                     <!--On donne un nom a l'onglet-->
 		<meta charset="uft-8" />
 		<link rel="icon" href="../../Assets/emoji_site_oni.png">   <!--On donne une icone a l'onglet-->
-		<link rel="stylesheet" href="verification.css">         <!--On relie le code css au code HTML-->   
+		<link rel="stylesheet" href="Page_personnel.css">         <!--On relie le code css au code HTML-->   
 	</head>
 
-<!--En attente d'un prototype figma convenable.-->
+	<body>
+		<div>
+			<nav>
+				<ul>
+			  	<a href="../../index/Oni.html"><img src="..\..\Assets\emoji_oni.png" class="bouton_oni"></a></li>  
+				<li class="menu-deroulant">
+					<a href="#">Nos Réseaux</a><!--ici on mets tout nos réseaux-->
+					<ul class="sous-menu">
+			  	<li><a href="https://twitter.com/OniKorpPro">Twitter</a></li>
+				  	<li><a href="https://www.twitch.tv/oni_korp">Twitch</a></li>
+				  	<li><a href="https://youtube.com/channel/UCbjfbZaMnTJBZkIXrjQGsNQ">Youtube</a></li>
+			  	<li><a href="https://www.tiktok.com/@onikorp.officiel?lang=fr">TikTok</a></li>
+					</ul>
+			  	</li>
+			  	<li class="menu-deroulant">
+					<a href="#">Oni Korp</a>  <!--ici on place des lien vers d'autre page de la oni-->
+					<ul class="sous-menu">
+				 		<li><a href="..\qui_sommes_nous\Oni_qui_sommes_nous.html">Qui sommes nous ?</a></li>
+				 		<li><a href="..\effectif\Oni_effectif.html">Effectif</a></li>
+			  			<li><a href="..\partenaire\Oni_partenaires.html">Partenaires</a></li>
+						<li><a href="../recrutement/Oni_recrutement.html">Recrutement</a></li>
+					</ul>
+			  	</li>
+			  	<li><a href="../boutique/Oni_boutique.html" class="boutique">Boutique</a></li>
+				  <li class="menu-deroulant">
+					<a href="#">Votre compte</a><!--ici on mets tout nos réseaux-->
+					<ul class="sous-menu">
+					<li><a href="../connexion/connexion.html">Se connecter</a></li>
+					<li><a href="../inscription/inscription.html">S'inscrire</a></li>
+					<li><a href="../Page_personnel/Page_personnel.html">Page personnelle</a></li>
+					</ul>
+				</ul>
+		  	</nav>
+		</div>
+		
+			<div class="Présentation_general"> 
+				<img src="../../Assets/Bannière Oni New.png" class="Banniere"> <!--On crée une classe pour la bannière-->
+				<img src="../../Assets/Oni_Fan.png" alt="Photo profil" class="Photo_Profile" >
+				<button type="menu" class="edit_profile">Personnaliser votre profile</button>
+				<p class="Bienvenue">Bienvenue chez Oni Korp</p>
+				<p class="Pseudo" >Oni korp</p>
+			</div>
+		</div>
+		<div class="Information_compte">
+			<p>Information de votre compte :</p>
+			<p class="P2">Ces informations vous sont personnelle.<br>Par conséquent la Oni korp a pour objectif de garantir la sécurité de vos information.</p>
+		</div>
+			<div>
+				<p class="Titre_email">Votre email</p>
+				<p class="Email_utilisateur">email exemple</p> <!--Transformer le text d'exeloke en l'email de l'utilisateur nécéssite PHP-->
+				<br>
+				<p class="Titre_Pseudo">Votre Pseudo</p>
+				<p class="Pseudo_utilistaur">Oni korp</p>
+				<br>
+				<p class="Titre_MDP">Votre Mots de passe</p>
+				<p class="MDP_utilistaur">Mots de passe utilisateur</p>
+				<button>Changez mots de passe</button>
+			</div>
+
+		</div>
+	</body>
+</html>
