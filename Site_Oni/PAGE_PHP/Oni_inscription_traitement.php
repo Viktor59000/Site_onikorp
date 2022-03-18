@@ -1,5 +1,5 @@
 <?php 
-    require_once '../DButilisateur/config.php'; 
+    require_once 'Oni_config.php'; 
 
     
     if(!empty($_POST['pseudo']) && !empty($_POST['email']) && !empty($_POST['password']) && !empty($_POST['password_retype']))
@@ -41,7 +41,7 @@
                                 'token' => bin2hex(openssl_random_pseudo_bytes(64))
                             ));
                             
-                            header('Location:inscription.php?reg_err=success');
+                            header('Location: ../index.html?reg_err=succes');
                             die();
                         }else{ header('Location: inscription.php?reg_err=password'); die();}
                     }else{ header('Location: inscription.php?reg_err=email'); die();}
