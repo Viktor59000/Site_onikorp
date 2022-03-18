@@ -41,11 +41,11 @@
                                 'token' => bin2hex(openssl_random_pseudo_bytes(64))
                             ));
                             
-                            header('Location: ../index.html?reg_err=succes');
+                            header('Location: Oni_inscription.php?reg_err=succes');
                             die();
-                        }else{ header('Location: inscription.php?reg_err=password'); die();}
-                    }else{ header('Location: inscription.php?reg_err=email'); die();}
-                }else{ header('Location: inscription.php?reg_err=email_length'); die();}
-            }else{ header('Location: inscription.php?reg_err=pseudo_length'); die();}
-        }else{ header('Location: inscription.php?reg_err=already'); die();}
+                        }else{ header('Location: Oni_inscription.php?reg_err=password'); die();}
+                    }else{ header('Location: Oni_inscription.php?reg_err=email'); die();}
+                }else{ header('Location: Oni_inscription.php?reg_err=email_length'); die();}
+            }else{ header('Location: Oni_inscription.php?reg_err=pseudo_length'); die();}
+        }else{ header('Location: Oni_inscription.php?reg_err=already'); die();}
     }

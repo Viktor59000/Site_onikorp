@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../PAGE_CSS/Oni_inscription.css">
     <!--On lie le fichier css a la page HTML-->
-    <title>Inscription</title>
+    <title>Inscription | Oni Korp</title>
 </head>
 
 <body>

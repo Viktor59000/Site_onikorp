@@ -1,59 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url(https://fr.allfont.net/allfont.css?fonts=agency-fb);
 
-body{
+body {
   display: flex;
-  flex-direction: columns;
-  background-color: #f5f5f5;
-  font-family: 'agency-fb', sans-serif;
+  font-family: "agency-fb", sans-serif;
+  text-align: center;
+  justify-content: center;
+  background-color: #404040;
 }
 form {
   margin-top: 20px;
-  padding: 40px 60px;
   border-radius: 10px;
   min-width: 300px;
+  font-family: "agency-fb", sans-serif;
 }
-form h1{
-  color: #C23028;
+form h2 {
+  color: #c23028;
+  font-family: "agency-fb", sans-serif;
+  text-align: center;
 }
-form p.choose-email{
-}
-form .inputs {
+form div.form-group {
   display: flex;
   flex-direction: column;
 }
-form .inputs input[type='email'], input[type='password']{
-  padding: 15px;
-  border:none;
-  background-color: rgba(194, 48, 40, 40%);
-  opacity: 100%;
-  color: #F2F2F2;
-  outline:none;
-  margin-bottom: 15px;
+form div.form-group input[type="email"],
+input[type="password"] {
+  padding: 20px 10px;
+  border: none;
+  background-color: #c23028;
+  opacity: 80%;
+  color: #ffffff;
+  outline: none;
+  margin-bottom: 10px;
+  font-family: "agency-fb", sans-serif;
+  transition: 1s;
 }
-form p.inscription{
+
+form div.form-group input[type="email"]:hover,
+input[type="password"]:hover {
+  opacity: 100%;
+}
+
+form div.form-group input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  opacity: 100%;
+  color: #ffffff;
+}
+
+p.inscription {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #878787;
-}
-form p.inscription span{
-  color: #C23028;
-}
-form button{
-  padding: 15px 20px;
-  border:none;
-  font-size: 15px;
+  margin-top: 15px;
   color: #fff;
-  background-color: #C23028;
-  outline:none;
-  cursor:pointer;
-}
-form button a{
-  color: #F2F2F2;
+  font-family: "agency-fb", sans-serif;
+  text-align: center;
+  justify-content: center;
   text-decoration: none;
 }
-form .mdp_oublie{
-  color: rgba(194, 40, 48, 1.0);
-  text-decoration: none;
 
+form p.inscription span {
+  color: #e06d67;
+  font-family: "agency-fb", sans-serif;
+  text-decoration: none;
+}
+
+p.inscription span > a {
+  text-decoration: none;
+  color: #e06d67;
+  transition: 1s;
+}
+
+p.inscription span > a:hover {
+  text-decoration: none;
+  color: #c23028;
+}
+
+form div.form-group button {
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: #c23028;
+  opacity: 75%;
+  outline: none;
+  cursor: pointer;
+  font-family: "agency-fb", sans-serif;
+  transition: 1s;
+}
+
+form div.form-group button:hover {
+  opacity: 100%;
 }
